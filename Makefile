@@ -6,7 +6,7 @@
 PROG=alice-lg
 ARCH=amd64
 
-VERSION=$(shell cat ./VERSION)
+VERSION=$(shell git describe --tag)
 
 
 all: alice

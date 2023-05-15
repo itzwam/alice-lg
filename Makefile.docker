@@ -1,7 +1,7 @@
 
 # Build Docker Image
 
-APP_VERSION=$(shell cat ./VERSION)
+APP_VERSION=$(shell git describe --tag)
 
 all: image
 
